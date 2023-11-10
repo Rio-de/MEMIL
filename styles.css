@@ -51,4 +51,8 @@ p {
   height: 50px;
 }
 
-
+.member-icon:nth-child(n+2) {
+  position: absolute;
+  top: 20px;
+  right: 63px; 
+}
