@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Get references to the button and the hidden content
+  // Get references to all buttons and hidden contents
   var toggleButtons = document.querySelectorAll('.toggleButton');
   var hiddenContents = document.querySelectorAll('.hiddenContent');
 
