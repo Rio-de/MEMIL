@@ -37,3 +37,7 @@ p {
 .hiddenContent {
   margin-top: 20px;
 }
+
+.scheduleInfo {
+  text-align: right;
+}
