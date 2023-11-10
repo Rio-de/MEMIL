@@ -47,7 +47,6 @@ p {
   position: absolute;
   top: 20px;
   right: 10px;
-  transform: translateY(-50%);
   display: flex;
 }
 
