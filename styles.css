@@ -19,6 +19,7 @@ p {
   border-radius: 10px;
   margin: 20px auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .toggleButton {
@@ -43,9 +44,9 @@ p {
 }
 
 .member-icon {
-  float: right;
-  margin-right: 10px;
-  margin-top: -50px;
+  position: absolute;
+  top: 0;
+  right: 10px;
   width: 50px;
   height: 50px;
 }
