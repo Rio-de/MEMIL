@@ -41,3 +41,9 @@ p {
 .scheduleInfo {
   text-align: right;
 }
+
+.member-icon {
+  float: right;
+  margin-right: 10px; 
+}
+
