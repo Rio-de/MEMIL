@@ -13,7 +13,7 @@ p {
   line-height: 1.5;
 }
 
-#container {
+.container {
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -21,7 +21,7 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#toggleButton {
+.toggleButton {
   font-size: 24px;
   padding: 10px 20px;
   color: #000000;
@@ -31,10 +31,10 @@ p {
   transition: background-color 0.3s;
 }
 
-#toggleButton:hover {
+.toggleButton:hover {
   background-color: #d0d0d0;
 }
 
 #hiddenContent {
   margin-top: 20px;
-});
+}
