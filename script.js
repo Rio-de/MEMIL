@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Get references to the button and the hidden content
-  var toggleButton = document.getElementById('toggleButton');
-  var hiddenContent = document.getElementById('hiddenContent');
+  var toggleButtons = document.querySelectorAll('.toggleButton');
+  var hiddenContents = document.querySelectorAll('.hiddenContent');
 
-  // Add a click event listener to the button
-  toggleButton.addEventListener('click', function() {
-    // Toggle the display property of the hidden content
-    if (hiddenContent.style.display === 'none') {
-      hiddenContent.style.display = 'block';
-    } else {
-      hiddenContent.style.display = 'none';
-    }
+  // Add click event listeners to all toggle buttons
+  toggleButtons.forEach(function(toggleButton, index) {
+    toggleButton.addEventListener('click', function() {
+      // Toggle the display property of the corresponding hidden content
+      if (hiddenContents[index].style.display === 'none') {
+        hiddenContents[index].style.display = 'block';
+      } else {
+        hiddenContents[index].style.display = 'none';
+      }
+    });
   });
 });
