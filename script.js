@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
   toggleButtons.forEach(function(toggleButton, index) {
     toggleButton.addEventListener('click', function() {
       // Toggle the display property of the corresponding hidden content
-      if (hiddenContents[index].style.display === 'none') {
+      var computedStyle = window.getComputedStyle(hiddenContents[index]);
+
+      if (computedStyle.display === 'none') {
         hiddenContents[index].style.display = 'block';
       } else {
         hiddenContents[index].style.display = 'none';
