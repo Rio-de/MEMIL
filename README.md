@@ -3,14 +3,20 @@ layout: page
 title: "PAGE-TITLE"
 permalink: /my-web-page/
 ---
-# Minimal Theme
+/* styles.css */
 
-[Demo the Theme](https://orderedlist.com/minimal/)
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
 
-This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
+h1 {
+  color: #0066cc;
+}
 
-Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
+p {
+  line-height: 1.5;
+}
 
-# License
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+/* 他のスタイルルールを追加できます */
