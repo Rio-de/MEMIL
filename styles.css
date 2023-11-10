@@ -43,16 +43,16 @@ p {
   text-align: right;
 }
 
-.member-icon {
+.member-icons {
   position: absolute;
-  top: 20px;
+  top: 50%;
   right: 10px;
-  width: 50px;
-  height: 50px;
+  transform: translateY(-50%);
+  display: flex;
 }
 
-.member-icon:nth-child(n+2) {
-  position: absolute;
-  top: 20px;
-  right: 63px; 
+.member-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
